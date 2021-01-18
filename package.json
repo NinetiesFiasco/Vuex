@@ -1,0 +1,26 @@
+{
+  "name": "myproj",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Середин Антон <55971481+NinetiesFiasco@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.12.10",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.0.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^4.5.1",
+    "style-loader": "^2.0.0",
+    "vue": "^2.6.12",
+    "vue-loader": "^15.9.6",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^5.15.0",
+    "webpack-cli": "^4.3.1",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "scripts" : {
+    "build": "npx webpack",
+    "dev": "webpack serve"
+  }
+}
